@@ -24,6 +24,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { CardComponent } from './components/card/card.component';
 import { CardListComponent } from './components/card-list/card-list.component';
+import { CardCarouselComponent } from './components/card-carousel/card-carousel.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { CardListComponent } from './components/card-list/card-list.component';
     NavbarComponent,
     CardComponent,
     CardListComponent,
+    CardCarouselComponent,
   ],
   imports: [
     BrowserModule,

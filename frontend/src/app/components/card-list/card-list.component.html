@@ -1,8 +1,33 @@
 <div class="wrapper">
-  <h1 id="home">{{title}}</h1>
-  <div class="box">
-    <div class="div" *ngFor="let movieId of movieIds">
+  <h1>{{title}}</h1>
+
+  <ul class="card-list" >
+    <li *ngFor="let movieId of movieIds">
       <app-card [tmdbId]="movieId"></app-card>
-    </div>
-  </div>
+    </li>
+  </ul>
 </div>
+
+<!--
+<ul class="card-list" >
+	<li>
+		<app-card></app-card>
+	</li>
+
+	<li>
+		<app-card></app-card>
+	</li>
+
+	<li>
+		<app-card></app-card>
+	</li>
+
+	<li>
+		<app-card></app-card>
+	</li>
+
+	<li>
+		<app-card></app-card>
+	</li>
+</ul>
+-->

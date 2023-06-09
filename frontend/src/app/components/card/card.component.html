@@ -1,5 +1,19 @@
-<div class="card">
+<!-- <div class="card">
   <a href="">
     <img [src]="image_url" alt="">
   </a>
-</div>
+</div> -->
+
+<div class="bg-img" [ngStyle]="{'background-image': 'url(' + image_url +  ')'}"></div>
+<a href="#">
+  <div class="content">
+    <h2>{{title}}</h2>
+  </div>
+</a>
+
+<!-- <div class="bg-img" style="background-image: url('http://lewihussey.com/codepen-img/orangeisthenewblack.jpg');"></div>
+<a href="#">
+  <div class="content">
+    <h2>Orange is the new black</h2>
+  </div>
+</a> -->
